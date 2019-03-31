@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/uzq7yns.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="title-space">
+                    <h1>Animal Giphy Search</h1>
+                    <hr/>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="main">
+                    <div id="button-holder" class="col"></div>
+                    
+                    <form id="animals-form" class="text-center">
+                        <label for="animal-input">Search for a new animal:</label>
+                        <br>
+                        <input type="text" id="animal-input">
+                    
+                        <!-- Button triggers new movie to be added -->
+                        <input id="add-animal" type="submit" value="Search">
+                    </form>
+
+                    <div id="animals-view"></div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+body {
+    background-image: url('../images/prism.png');
+    /* background-color: rgb(188, 243, 234); */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main {
+    background-color: #efefef;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 45px;
+}
+
+.title-space {
+    background-color: #efefef;
+    padding: 35px;
+    padding-top: 45px;
+    text-align: center;
+    font-family: mono45-headline, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, monospace;
+    font-weight: 500;
+    font-style: normal;
+}
