@@ -20,3 +20,7 @@ body {
     font-weight: 500;
     font-style: normal;
 }
+
+#animals-view {
+    padding-top: 35px;
+}

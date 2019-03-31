@@ -16,7 +16,6 @@
             <div class="col-10">
                 <div class="title-space">
                     <h1>Animal Giphy Search</h1>
-                    <hr/>
                 </div>
             </div>
             <div class="col-1"></div>
@@ -25,18 +24,24 @@
             <div class="col-1"></div>
             <div class="col-10">
                 <div class="main">
-                    <div id="button-holder" class="col"></div>
+                    <!-- button holder -->
+                    <div id="button-area" class="col text-center">
+                        <!-- generated buttons area -->
+                    </div>
                     
                     <form id="animals-form" class="text-center">
-                        <label for="animal-input">Search for a new animal:</label>
                         <br>
-                        <input type="text" id="animal-input">
-                    
+                        <label for="add-animal" id="add-animal">Search for a new animal:</label>
+                        <br>
+                        <input type="text" id="input-animal">
                         <!-- Button triggers new movie to be added -->
-                        <input id="add-animal" type="submit" value="Search">
+                        <button type="submit" class="btn" id="search-button">Search</button>
                     </form>
 
-                    <div id="animals-view"></div>
+                    <!-- GIF holder -->
+                    <div id="gif-area" class="text-center">
+                        <!-- generated gifs -->
+                    </div>
                 </div>
             </div>
             <div class="col-1"></div>
