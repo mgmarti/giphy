@@ -19,14 +19,13 @@ $(document).ready(function() {
 
     renderButtons();
 
-    $("submit-button").on("click",function(){
+    $("#search-button").on("click", function(event) {
         event.preventDefault();
-        console.log('it clicks!')
-
-        const animal = $("#input-animal").val().trim();
-
-        queries.push(animal);
+        queries.push($("#input-animal").val().trim())
+        $("#button-area").empty();
         renderButtons();
+        // reset the inputMovie area to blank
+        $("#input-animal").val("")
     });
 
 
@@ -52,13 +51,12 @@ $(document).ready(function() {
                     animalDiv.append(p);
                     animalDiv.append(animalImage);
         
-                    // Prependng the animalDiv to the HTML page in the "#gifs-appear-here" div
                     $("#gif-area").prepend(animalDiv);
                   }
             })
     })
 
-      
+      (document).on("click", ".animal-button")
 
         
         
