@@ -22,11 +22,16 @@ body {
 }
 
 #animals-view {
-    padding-top: 35px;
+    padding-top: 45px;
 }
 
 .animal-button {
     margin-right: 15px;
     border-radius: 5px;
     padding: 5px;
+}
+
+.animalDiv {
+    padding-top: 35px;
+    display:  inline-block;
 }
