@@ -5,7 +5,7 @@ $(document).ready(function() {
     // console.log(queries);
 
     function renderButtons() {
-        $("#buttons-view").empty();
+        $("#buttons-area").empty();
         for (var i = 0; i < queries.length; i++)  {
 
             const newButton = $("<button>");
