@@ -14,7 +14,7 @@
 Use the GIPHY API to make a dynamic web page that populates with gifs of your choice. Use of JavaScript and/or jQuery to change site HTML.
 
 ## Screenshots
-![Example screenshot](./assets/images/screenshot.jpg)
+![Giphy-Example-screenshot](./assets/images/screenshot.jpg)
 
 ## Technologies
 * HTML5/CSS3
