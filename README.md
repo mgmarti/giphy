@@ -20,6 +20,7 @@ Use the GIPHY API to make a dynamic web page that populates with gifs of your ch
 * HTML5/CSS3
 * JavaScript
 * jQuery
+* Giphy API
 
 ## Setup
 Live: https://mgmarti.github.io/giphy/
